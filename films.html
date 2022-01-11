@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Covid films </title>
+
+<link rel="stylesheet" href="mijnstijlen.css" type="text/css" />
+
+<SCRIPT TYPE="text/javascript" SRC="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></SCRIPT>
+
+</head>
+<body>
+
+<header>
+    <div id="logo">
+           <a href="index.html"><img src="home.png" height="50" width="64" alt="vlag" /></a>
+    </div>
+	
+	<nav>
+<ul>
+<li><a href="maatregel.html">Maatregelen</a></li>
+<li><a href="cijfers.html">Cijfers</a></li>
+<li><a href="symptonen.html">Symptonen</a></li>
+<li><a href="films.html">Informatie filmpjes</a></li>
+</ul>
+</nav>
+
+</header>
+
+<br><br><br>
+
+<h2>Films over Covid</h2>
+
+<p> Kijk een film voor info over Corona.</P>
+
+<iframe width="50%" height="50%"  src="https://www.youtube.com/embed/Dn-2N3u_P9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="50%" height="50%" src="https://www.youtube.com/embed/OkpJ83dadwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<CANVAS ID="myCanvas" WIDTH="50" HEIGHT="50">
+Het spijt ons, u bekijkt deze pagina met een browser die de inhoud niet kan tonen. Het beste kunt
+u de nieuwste versie van Firefox, Chrome, Safari of Opera gebruiken.
+</CANVAS>
+
+
+
+
+<SCRIPT TYPE="text/javascript">
+$(document).ready(function() {
+  var canvas = $("#myCanvas");
+  var context = canvas.get(0).getContext("2d");
+  context.fillRect(4,4,10,10);
+});
+</SCRIPT>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
